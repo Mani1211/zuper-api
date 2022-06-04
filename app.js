@@ -13,7 +13,7 @@ app.use(helmet());
 app.use(compression());
 
 app.get("/", (req, res) => {
-	res.send("<h1>Hello Zuper</h1>");
+	res.send("<h1>Hello Zuper team!!!</h1>");
 });
 
 app.use("/api", ProductRoutes);
